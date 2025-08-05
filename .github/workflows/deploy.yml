@@ -15,8 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      # Build your site and upload artifact here
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v3
+      - name: Build site
+        run: npm run build # or your build command
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: './build' # or your build output folder
+      - uses: actions/deploy-pages@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
