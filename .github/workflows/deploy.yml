@@ -1,4 +1,10 @@
 name: 🚀 Deploy to GitHub Pages
+
+permissions:
+  id-token: write
+  contents: read
+
+# ... rest of your workflow
 on:
   push:
     branches:
