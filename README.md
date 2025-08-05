@@ -2,7 +2,7 @@
 
 A classic 2-player **Connect 4** game built using **HTML**, **CSS**, and **JavaScript**. This is a fun, interactive browser-based version where two players take turns dropping colored discs into a grid, trying to connect four in a row vertically, horizontally, or diagonally.
 
-![Connect 4 Screenshot](https://user-images.githubusercontent.com/your-github-image-link.png) <!-- Replace with actual screenshot -->
+![Connect 4 Screenshot](Gameplay) <!-- Replace with actual screenshot -->
 
 ---
 
