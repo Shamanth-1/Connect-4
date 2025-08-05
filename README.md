@@ -8,7 +8,7 @@ A classic 2-player **Connect 4** game built using **HTML**, **CSS**, and **JavaS
 
 ## 🚀 Live Demo
 
-👉 [Play it Now](https://yourusername.github.io/connect4/)  
+👉 [Play it Now](https://shamanth-1.github.io/connect4/)  
 *(Replace with your GitHub Pages link)*
 
 ---
