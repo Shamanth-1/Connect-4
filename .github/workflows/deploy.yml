@@ -21,7 +21,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-         working-directory: ./Connect-4
 
       - name: Build project
         run: npm run build
