@@ -3,7 +3,7 @@ name: 🚀 Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # or change to 'master' if that's your default branch
+      - main
 
 permissions:
   contents: read
@@ -21,10 +21,10 @@ jobs:
       - name: ⚙️ Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: 📦 Upload artifact
+      - name: 📦 Upload static files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: .  # root of your project
 
       - name: 🚀 Deploy to GitHub Pages
         uses: actions/deploy-pages@v3
