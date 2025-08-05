@@ -54,7 +54,7 @@ connect4/
 ## 📸 Screenshots
 
 <!-- Add screenshots here -->
-![Gameplay](https://user-images.githubusercontent.com/your-github-image-link.png)
+![Gameplay](Gameplay1.png)
 
 ---
 
