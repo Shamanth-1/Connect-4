@@ -23,3 +23,10 @@ jobs:
       - uses: actions/deploy-pages@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          - name: Install dependencies
+  run: npm install
+  working-directory: ./ # Use the correct path where package.json exists
+
+- name: Build
+  run: npm run build
+  working-directory: ./ # Use the correct path
